@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* ============ main css code ======================== */ 
+/* colors  : 8b4d92 ; 4D2A51 ; 8b4d92 */ 
+.col-10{
+padding: 0;
+}
+.sidebar-section{
+  padding: 1em;
+  background-color: #353535;
+  height: 100%;
+  color: white;
+}
+.subheading{
+padding: 0 1em 1em 1em;
+font-size: 1.2em;
+border-bottom: 1px solid #818181;
+}
+.icon {
+font-size: 1em;
+}
+.chatitem{
+  margin: 2em 0;
+  transition: 0.4s;
+  padding: 1em;
+}
+.chatitem:hover{
+ background-color: #484848;
+}
+li{
+  list-style: none;
+}
+.chatitem a{
+  color:#F1F1F1;
+  text-decoration: none;
+  list-style: none;
+  font-weight: bold;
+  
+}
+.add-chat-section{
+  border-top: 1px solid #818181;
+  padding: 1em;
+  margin:  0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+}
+.addchatbtn{
+  margin: 1em;
+}
+.ce-chats-container{
+  /*display: none;*/
+  background-color: #7b4581!important;
+  font-family:  "Roboto", sans-serif;;
+  color: white;
+}
+.ce-chat-form-container{
+  background-color: #7b4581!important;
+  color: white;
+}
+.ce-active-chat-card{
+  color: #818181;
+}
+.ce-primary-button {
+  background-color: #4D2A51!important;
+}
+.ce-chat-unread-dot{
+  background-color: #e193ea!important;
+}
+.ce-chat-title-container{
+ color: #4D2A51!important;
+
+}
+.ce-settings-container{
+  font-family:  "Roboto", sans-serif;;
+
+}
+.ce-input::placeholder{
+  font-family:  "Roboto", sans-serif;;
+}
+.ce-danger-button{
+  color: white!important;
+  border: none!important;
+}
+.ce-avatar{
+  background-color: #4D2A51!important;
+
+}
+.ce-wrapper{
+  height: 100vh!important;
+}
+.ce-chats-container{
+  border-radius: 0!important;
+}
+#ce-send-message-button{
+  background-color: #4D2A51!important;
+}
+#ce-ice-breaker-gif{display: none;}
